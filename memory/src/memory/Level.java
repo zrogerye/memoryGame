@@ -213,7 +213,7 @@ public class Level {
 				
 				
 				
-				new Thread(thing).start();
+				//new Thread(thing).start();
 				/*
 				while (!playCompleted) {
 					// wait for the playback completes
