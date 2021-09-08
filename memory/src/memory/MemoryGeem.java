@@ -155,8 +155,15 @@ public class MemoryGeem {
 		maxSelectButtonWidth += (margin.left + margin.right + 10) * 3;
 
 		JButton congratSceenButton = new JButton(new ImageIcon(congatSceen));
+		
+		
+		
 		congratSceenButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent helo) {
+				
+				
+				
+				
 				System.out.println("congrats button pressed");
 				congratSceenFrame.dispose();
 				setup();
