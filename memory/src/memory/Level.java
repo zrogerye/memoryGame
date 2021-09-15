@@ -90,10 +90,11 @@ public class Level implements Runnable {
 					//put sound thing here
 					Runnable mooSound = () -> {
 						final testAudio player = new testAudio ();
+						//change filepath to wahtever yo file is at ye
 						player.play("C:\\Users\\roger\\git\\memory\\memory\\moo.wav");
 					};
 
-					//new Thread(mooSound).start();
+					new Thread(mooSound).start();
 
 
 
