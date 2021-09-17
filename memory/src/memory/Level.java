@@ -142,11 +142,11 @@ public class Level implements Runnable {
 
 						Runnable goodjobSound = () -> {
 							final testAudio player = new testAudio ();
-							player.play("C:\\Users\\roger\\git\\memory\\memory\\goodjob.wav");
+							player.play("C:\\Users\\roger\\git\\memory\\memory\\congradulatoons.wav");
 						};
 
 						new Thread(() -> {
-							for (int t = 0; t < 50; t++) {
+							for (int t = 0; t < 20; t++) {
 								new Thread(goodjobSound).start();
 								try {
 									Thread.sleep(100);
@@ -200,7 +200,7 @@ public class Level implements Runnable {
 	public void run() {
 		// TODO Auto-generated method stub
 		final testAudio player = new testAudio ();
-		player.play("C:\\Users\\roger\\Documents\\EclipseWorkspace\\test\\moo.wav");
+		player.play("C:\\Users\\roger\\Documents\\EclipseWorkspace\\test\\congradulatoons.wav");
 
 	}		
 
